@@ -1,0 +1,9 @@
+user Manual 
+
+when Calling testing 
+console.log(user.checkforempty([1,2,3,4],option,error:['Error Header','Error Description']));
+           console.log(user.checkforempty("Thalida",{dataType:'string'}));
+           console.log(user.checkforempty("123",{dataType:'number'}));
+           console.log(user.checkforempty("thalindagmail.com",{dataType:'email'}));
+           console.log(user.checkforempty("0711885002",{dataType:'phone'}));
+           console.log(user.checkforempty("P@eeklk",{dataType:'pwdval','other':'P@eeklk'}));
